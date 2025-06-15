@@ -1,4 +1,4 @@
-from bayesmab.bandits import BayesianBandit
+from bayesmab.bandit import BayesianBandit
 import numpy as np
 
 # Create a bandit with 3 variants

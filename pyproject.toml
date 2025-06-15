@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "bayesbandit"
 version = "0.1.0"
-description = "Bayesian multi-armed bandit implementation with Thompson Sampling"
+description = "Bayesian multi-armed bandit implementation with adaptive Thompson Sampling"
 authors = [
     { name="Your Name", email="you@example.com" }
 ]
@@ -15,7 +15,10 @@ dependencies = [
     "matplotlib",
     "scipy"
 ]
-requires-python = ">=3.7"
+requires-python = ">=3.8"
 
 [project.urls]
-Homepage = "https://github.com/yourusername/bayesbandit"
+"Homepage" = "https://github.com/Wahidur-Rahman/BayesMAB"
+"Bug Tracker" = "https://github.com/Wahidur-Rahman/BayesMAB/issues"
+[project.urls]
+
