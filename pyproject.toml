@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bayesbandit"
+version = "0.1.0"
+description = "Bayesian multi-armed bandit implementation with Thompson Sampling"
+authors = [
+    { name="Your Name", email="you@example.com" }
+]
+license = { text = "MIT" }
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "scipy"
+]
+requires-python = ">=3.7"
+
+[project.urls]
+Homepage = "https://github.com/yourusername/bayesbandit"

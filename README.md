@@ -1,2 +1,8 @@
-# BayesMAB
-A tool for implementing Bayesian Multi-Armed Bandits
+# bayesbandit
+
+Bayesian Multi-Armed Bandit with Thompson Sampling for A/B testing and adaptive decision making.
+
+## Installation
+
+```bash
+pip install bayesbandit
